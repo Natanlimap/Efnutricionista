@@ -1,38 +1,297 @@
-.App {
-  text-align: center;
+
+.Borda{
+  border-color: #8ab130 !important;
+  border-width: 5px !important;
+}
+body{
+  color: #8ab130;
+}
+p, li{
+  color: #252525
+}
+h1{
+  font-size: calc(10px + 5vw);
+  color: #014c29;
+  font-family: RobotoSlab;
+  
+}
+h2{
+  font-size: calc(16px + 2vw);
+  font-family: LatoBold;
+}
+h3{
+  font-size: calc(16px + 1vw) !important;
+  font-family: RobotoSlab;
+  color: #88b02c;
+}
+h4{
+  font-size: 1.2em;
+  font-family: RobotoSlab;
+
+}
+li{
+  list-style-type: none;
+  font-size: calc(10px + 1vw)
+  
+}
+p{
+  font-size: calc(6px + 1vw) !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .color-background{
+   background-color: #eef3d3;
+ }
+
+ .whiteBackground{
+  background-color: white;
+}
+.consultaP{
+  margin-left: 50px;
+  border-right: 5px solid #8ab130;
+
+}
+.consultaP h4{
+  width: 80%;
+  font-family: RobotoSlab;
+  font-size: calc(12px + 1vw) !important;
+}
+.consultaP p{
+  width: 80%;
+  
+  font-size: calc(9px + 1vw) !important;
+}
+.Footer{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #8ab130;
+}
+#fixedbutton {
+  position: fixed;
+  width: 60px;
+  bottom: 20px;
+  right: 0px; 
+  z-index: 1;
+}
+#fixedbuttonTel {
+  display: none;
+  position: fixed;
+  width: 60px;
+  bottom: 100px;
+  right: 0px; 
+  z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.my-float{
+	margin-top:22px;
+}
+
+/* navbar */
+.navbackground{
+  background-color:white !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("./Images/background.png");
+}
+.navbar-light .navbar-nav .nav-link{
+  font-size: calc(10px + 1vw) !important;
+  color: #8ab130;
+}
+.bg-light {
+  background-color: transparent!important;
+}
+ /* atendimento */
+
+#marginAtendimento{
+  margin-left: auto;
+}
+#melhorForma{
+  padding-left: 50px;
+  font-size: calc(10px + 1vw) !important;
+}
+
+.Footer img{
+  width: auto;
+}
+
+.reverse{
+  flex-direction: row-reverse !important;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(./Fonts/Lato-Bold.ttf) format('opentype');
+}
+
+
+@media only screen and (max-width: 1000px) {
+  #navbarPadding{
+    margin-top: 600px !important;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navbackground{
+    background-image: url("./Images/backgroundmobile.png");
   }
-  to {
-    transform: rotate(360deg);
+  .w-75{
+    width: 100% !important;
+  }
+  .w-50{
+    width: 100% !important;
+  }
+  .pr-5{
+    padding-right: 0px;
+  }
+  .pt-5{
+    padding-top: 0px !important;
+  }
+  .pb-5{
+    padding-bottom: 0px !important;
+  }
+  .mb-5{
+    margin-bottom: 0px !important;
+  }
+  .mr-5{
+    margin-right: 0px !important;
+  }
+
+  .ml-5{
+    margin-left: 0px !important;
+  }
+  .py-5{
+    padding-top: 0px !important;
+  }
+  .pl-5{
+    padding-left: 0px !important;
+  }
+  body{
+    text-align: justify;
+  }
+
+  h1, h2, h3, h4, p{
+    padding-left: 10% !important;
+    padding-right: 10% !important;
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+  }
+  h1{
+    text-align: start;
+    font-size: calc(16px + 5.2vw);
+  }
+  h2{
+    text-align: center;
+    margin-left: auto !important; 
+  }
+  h3{
+    font-size: calc(12px + 2.2vw) !important;
+    font-weight: bold;
+    font-family: LatoBold;
+  }
+  p{
+    font-size: calc(8px + 2vw) !important;
+  }
+
+  li{
+    font-size: calc(6px + 3vw) !important;
+  }
+
+  a img{
+    width: 50%;
+    height: 100%;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .reducedImage{
+    width: 80% !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Borda{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #title{
+    padding-bottom: 20px !important;
+  }
+
+  #centerAbordagem{
+    margin-left: 15px !important;
+  }
+  /* atendimento */
+  #fotoBackground{
+    padding-top: 30px;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 60%, rgba(138,177,48,1) 60%);
+    margin-bottom: 60px;
+  }
+  #consultaImage{
+    width: 80% !important;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #backgroundConsulta{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #eef3d3 15%);
+  }
+  .whiteBackground{
+    background-color: transparent;
+  }
+  #borderAtendimento{
+    border-left: 5px solid #8ab130;
+  }
+  .consultaP{
+    text-align: start;
+    margin-left: 0px !important;
+  }
+  .consultaP p, .consultaP h3,  h4{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+  }
+  .consultaP p {
+    font-size: 16px !important;
+  }
+  .px-5{
+    padding-right: 0px;
+  }
+
+  #fixedbutton {
+    position: fixed !important;
+    width: 60px !important;
+    height: 60px !important;
+    bottom: 20px !important;
+    right: 0px !important; 
+    z-index: 1 !important;
+  }
+  #fixedbuttonTel {
+    display: inline !important;
+    position: fixed !important;
+    width: 60px !important;
+    height: 60px !important;
+
+    bottom: 100px !important;
+    right: 0px !important; 
+    z-index: 1 !important;
+  }
+
+ 
+  #melhorForma{
+    font-size: calc(12px + 2vw) !important;
+    padding-right: 10% !important;
+
+  }
+
+}
+@media only screen and (max-width: 700px) {
+
+  
+  #navbarPadding{
+    margin-top: 25vh !important;
   }
 }
