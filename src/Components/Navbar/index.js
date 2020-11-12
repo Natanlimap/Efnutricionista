@@ -36,10 +36,7 @@ function Navbar(props) {
         <a target="_blank" href="https://www.instagram.com/espacofisiocomfort/?hl=pt-br">
           <img src="./insta.png"></img>
         </a>
-        <a className="ml-5" target="_blank" href="https://api.whatsapp.com/send?phone=558420305181">
-          <img src="./wpp.png"></img>
-        </a>
-      </div>
+        </div>
     </div >
   );
 }

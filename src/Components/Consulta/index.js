@@ -24,7 +24,7 @@ function Consulta() {
                 <h4> Espaço Fisio Comfort Parnamirim</h4>
                 <p>Rua Prof. Clementino Câmara, 483 - Cohabinal | Parnamirim - RN | 08h às 17h | (84) 3272.5600</p>
                 <div className="row">
-                  <img src="wpp.png" style={{width: "8%", height: "8%", maxHeight: "40px", maxWidth: "40px", marginRight:"10px", alignSelf: "start"}}></img>
+                  <img src="WhatsApp-icone.png" style={{width: "8%", height: "8%", maxHeight: "40px", maxWidth: "40px", marginRight:"10px", alignSelf: "start"}}></img>
                   <p>(84) 2030-5181</p>
                   <p >@espacofisiocomfort</p>
 
