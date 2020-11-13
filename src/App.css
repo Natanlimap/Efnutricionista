@@ -1,17 +1,17 @@
 
 .Borda{
-  border-color: #8ab130 !important;
+  border-color: #57bac0 !important;
   border-width: 5px !important;
 }
 body{
-  color: #8ab130;
+  color: #57bac0;
 }
 p, li{
   color: #252525
 }
 h1{
   font-size: calc(10px + 5vw);
-  color: #014c29;
+  color: #57bac0;
   font-family: RobotoSlab;
   
 }
@@ -22,7 +22,7 @@ h2{
 h3{
   font-size: calc(16px + 1vw) !important;
   font-family: RobotoSlab;
-  color: #88b02c;
+  color: #57bac0;
 }
 h4{
   font-size: 1.2em;
@@ -39,7 +39,7 @@ p{
 }
 
  .color-background{
-   background-color: #eef3d3;
+   background-color: #c6e6e8;
  }
 
  .whiteBackground{
@@ -47,7 +47,7 @@ p{
 }
 .consultaP{
   margin-left: 50px;
-  border-right: 5px solid #8ab130;
+  border-right: 5px solid #c6e6e8;
 
 }
 .consultaP h4{
@@ -63,7 +63,7 @@ p{
 .Footer{
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #8ab130;
+  background-color: #47a7ad;
 }
 #fixedbutton {
   position: fixed;
@@ -79,7 +79,7 @@ p{
   bottom: 100px;
   right: 0px; 
   z-index: 1;
-}
+}bac
 
 .my-float{
 	margin-top:22px;
@@ -90,11 +90,11 @@ p{
   background-color:white !important;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url("./Images/background.png");
+  background-image: url("./Images/backgroundAzul.png");
 }
 .navbar-light .navbar-nav .nav-link{
   font-size: calc(10px + 1vw) !important;
-  color: #8ab130;
+  color: #47a7ad;
 }
 .bg-light {
   background-color: transparent!important;
@@ -128,7 +128,7 @@ p{
     margin-top: 600px !important;
   }
   .navbackground{
-    background-image: url("./Images/backgroundmobile.png");
+    background-image: url("./Images/backgroundAzulMobile.png");
   }
   .w-75{
     width: 100% !important;
@@ -227,7 +227,7 @@ p{
   #fotoBackground{
     padding-top: 30px;
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 60%, rgba(138,177,48,1) 60%);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 60%, #47a7ad 60%);
     margin-bottom: 60px;
   }
   #consultaImage{
@@ -240,11 +240,14 @@ p{
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #eef3d3 15%);
   }
+  #Acompanhamento{
+    margin-left: 3rem !important;
+  }
   .whiteBackground{
     background-color: transparent;
   }
   #borderAtendimento{
-    border-left: 5px solid #8ab130;
+    border-left: 5px solid #c6e6e8;
   }
   .consultaP{
     text-align: start;

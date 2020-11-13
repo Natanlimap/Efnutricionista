@@ -11,19 +11,14 @@ function Abordagens() {
         </div>
 
         <div className="col-lg order-1">
-          <div className="menu-text flex-grow-1 py-4 px-5">
-            <h2 className="ml-5 pl-5">ABORDAGENS</h2>
-            <div className="border-left py-3 pt-5 px-5 Borda"  id="centerAbordagem">
-              <li>Ortopédica;</li>
-              <li>Traumatológica;</li>
-              <li>Respiratória;</li>
-              <li>Urológica;</li>
-              <li>Pediátrica;</li>
-              <li>Neurológica;</li>
-              <li>Vascular;</li>
-              <li>Cardiológica;</li>
-              <li>Oncológica.</li>
-
+          <div className="menu-text flex-grow-1 py-4 ml-5 pl-5">
+            <div className="d-flex flex-column justify-content-center">
+              <h3 className="ml-5 pb-3" id="Acompanhamento">ACOMPANHAMENTO</h3>
+              <div className=" w-75 border-left px-4 Borda">
+                <p className="ml-4">O monitoramento é realizado para garantir o apoio e melhoria de possiveis sintomas ocasionados por patologias, assim como, orientação a respeito de questões essenciais para o desenvolvimento do público infato-juvenil</p>
+                <h3 className="ml-4 mb-4">CONVÊNIOS</h3>
+                <p className="ml-4">Humana Saúde <br></br> Particular</p>
+              </div>
             </div>
           </div>
         </div>

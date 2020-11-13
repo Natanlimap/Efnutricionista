@@ -5,15 +5,15 @@ function Consulta() {
     <div class="fluid-container" id="backgroundConsulta" id="contato">
       <div class="row no-gutters" >
         <div class="col-lg">
-          <div class="menu-image h-100 d-flex align-items-center">
+          <div class="menu-image h-100 d-flex align-items-end">
             <img id="consultaImage" src="Consulta.png" class="img-fluid" alt="menu" />
           </div>
         </div>
 
         <div class="col-lg d-flex flex-column align-items-center color-background">
-          <div className="py-5  whiteBackground w-100"> </div>
+          <div className="py-5 px-4 whiteBackground w-100"> </div>
           
-          <div class="menu-text flex-grow-1 py-5 pr-5">
+          <div class="menu-text flex-grow-1 pr-5">
             <div className="color-background w-75 consultaP " >
               <div className="py-5 mt-5 px-5 ">
                 <h3 className="w-75 pb-4">MARQUE SUA CONSULTA</h3>

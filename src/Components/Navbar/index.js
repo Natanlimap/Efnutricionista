@@ -8,8 +8,10 @@ function Navbar(props) {
     <div className="navbackground" >
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+          <span class="navbar-toggler-icon">
+            <i class="fas fa-bars" ></i>
+          </span>
+                  </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto pr-5 mr-5 pt-5 mt-5">
@@ -28,15 +30,15 @@ function Navbar(props) {
       </nav>
       <div className="d-flex flex-row flex-wrap justify-content-center pt-5 mt-5" id="navbarPadding">
         <div className="w-75 mt-5 pt-5 ml-auto">
-          <p className="w-50 mb-4 pb-4 mt-5 pt-5">Há mais de 10 anos no mercado, a Espaço Fisio é referência em ortopedia e reabilitação física. Congregando tecnologia de última geração, infraestrutura apropriada e profissionais especializados, garantimos a qualidade de um atendimento humanizado com foco no cliente</p>
-          <h1 className="w-75 pb-5 mb-5" id="title">REFERÊNCIA EM REABILITAR</h1>
+          <p className="w-50 mb-4 pb-4 mt-5 pt-5">Congregando tecnologia de última geração, infraestrutura apropriada e profissionais especializados, garantimos a qualidade de um atendimento humanizado com foco exclusivo nas necessidades do paciente</p>
+          <h1 className="w-75 pb-5 mb-5" id="title">REFERÊNCIA EM PEDIATRIA</h1>
         </div>
       </div>
       <div className="d-flex flex-row flex-nowrap justify-content-end pr-5 mr-5">
         <a target="_blank" href="https://www.instagram.com/espacofisiocomfort/?hl=pt-br">
           <img src="./insta.png"></img>
         </a>
-        </div>
+      </div>
     </div >
   );
 }

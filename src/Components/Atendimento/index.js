@@ -8,7 +8,7 @@ function Atendimento() {
           <div className="menu-text flex-grow-1 py-4 pl-5">
             <div id="borderAtendimento" id="marginAtendimento">
               <h3 className="mb-4 w-50">ATENDIMENTO HUMANIZADO</h3>
-              <p className="mt-2 w-75" id="atendimento">A humanização é uns princípios presentes em todas as etapas do nosso atendimento, muito mais que especialistas em fisioterapia, somos especialistas em <strong>Cuidado.</strong></p>
+              <p className="mt-2 w-75" id="atendimento">A humanização é um dos princípios presentes em todas as etapas do nosso atendimento, muito mais que especialistas em fisioterapia, somos especialistas em <strong>Cuidado.</strong></p>
               <h3 className="mb-4 w-50">ACESSIBILIDADE</h3>
               <p className="mt-2 w-75" id="atendimento">Proporcionando conforto e acessibilidade aos nossos clientes, dispomos duas unidades oferecendo infraestrutura apropriada, profissionais qualificados e localização estratégica.</p>
               <h3 className="mb-4 w-50">INFRAESTRUTURA</h3>
@@ -18,8 +18,8 @@ function Atendimento() {
           </div>
         </div>
         <div className="col-lg" id="fotoBackground">
-          <div className="menu-image h-100 d-flex align-items-end">
-            <img  src="atendimento.png" className="img-fluid reducedImage" alt="menu" />
+          <div className="menu-image h-100 d-flex align-items-center">
+            <img  src="bbnocolo.jpg" className="img-fluid reducedImage" alt="menu" />
           </div>
         </div>
 
