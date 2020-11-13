@@ -2,8 +2,8 @@
 
 function Abordagens() {
   return (
-    <div className="fluid-container" id="serviços">
-      <div className="row no-gutters align-items-center reverse">
+    <div className="fluid-container" id="atendimento">
+      <div className="row no-gutters align-items-center">
         <div className="col-lg order-2">
           <div className="menu-image h-100 d-flex align-items-start">
             <img src="reuniao.png" className="img-fluid" alt="menu" />
@@ -13,11 +13,11 @@ function Abordagens() {
         <div className="col-lg order-1">
           <div className="menu-text flex-grow-1 py-4 ml-5 pl-5">
             <div className="d-flex flex-column justify-content-center">
-              <h3 className="ml-5 pb-3" id="Acompanhamento">ACOMPANHAMENTO</h3>
+              <h3 className="ml-5 pb-3" id="Acompanhamento">ABORDAGENS</h3>
               <div className=" w-75 border-left px-4 Borda">
-                <p className="ml-4">O monitoramento é realizado para garantir o apoio e melhoria de possiveis sintomas ocasionados por patologias, assim como, orientação a respeito de questões essenciais para o desenvolvimento do público infato-juvenil</p>
-                <h3 className="ml-4 mb-4">CONVÊNIOS</h3>
-                <p className="ml-4">Humana Saúde <br></br> Particular</p>
+                <p className="ml-4">Nutrição clínica <br></br>Cirurgia bariátrica<br></br>Emagrecimento e nutrição esportiva<br></br>Nutrição Materno infantil</p>
+                <h3 className="ml-4 mb-4">ATENDIMENTO HUMANIZADO</h3>
+                <p  className="ml-4">A humanização é um dos princípios presentes em todas as etapas do nosso atendimento, muito mais que especialistas em Nutrição, somos especialistas em <strong>Cuidado.</strong></p>
               </div>
             </div>
           </div>

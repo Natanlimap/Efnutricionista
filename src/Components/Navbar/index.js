@@ -30,13 +30,14 @@ function Navbar(props) {
       </nav>
       <div className="d-flex flex-row flex-wrap justify-content-center pt-5 mt-5" id="navbarPadding">
         <div className="w-75 mt-5 pt-5 ml-auto">
-          <p className="w-50 mb-4 pb-4 mt-5 pt-5">Congregando tecnologia de última geração, infraestrutura apropriada e profissionais especializados, garantimos a qualidade de um atendimento humanizado com foco exclusivo nas necessidades do paciente</p>
-          <h1 className="w-75 pb-5 mb-5" id="title">REFERÊNCIA EM PEDIATRIA</h1>
+          <p className="w-50 mb-4 pb-4 mt-5 pt-5" id="congregando">Congregando tecnologia de última geração, infraestrutura apropriada e profissionais especializados, garantimos a qualidade de um atendimento humanizado com foco exclusivo nas necessidades do paciente</p>
+          <h1 className="w-75 pb-5 mb-5" id="title">REFERÊNCIA EM NUTRIÇÃO</h1>
+          <h1 className="w-75 pb-5 mb-5" id="subtitle">SAÚDE E BEM-ESTAR</h1>
         </div>
       </div>
       <div className="d-flex flex-row flex-nowrap justify-content-end pr-5 mr-5">
         <a target="_blank" href="https://www.instagram.com/espacofisiocomfort/?hl=pt-br">
-          <img src="./insta.png"></img>
+          <img id="insta" src="./insta.png"></img>
         </a>
       </div>
     </div >

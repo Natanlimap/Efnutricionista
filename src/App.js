@@ -7,6 +7,7 @@ import Abordagens from './Components/Abordagens';
 import Atendimento from './Components/Atendimento';
 import Consulta from './Components/Consulta';
 import React, { useRef } from 'react';
+import Cards from './Components/Cards';
 
 
 function App() {
@@ -18,16 +19,15 @@ function App() {
       <header>
         <Navbar ></Navbar>
       </header>
-      <section className="pt-2 mt-2" key="teste">
-        <Descricao id="melhorFormaSection"> </Descricao>
-      </section >
+      <section>
+        <Cards></Cards>
+      </section>
       <section className="pb-5 mb-5">
         <Abordagens></Abordagens>
       </section>
       <section >
         <Atendimento></Atendimento>
       </section>
-
       <section>
         <Consulta></Consulta>
       </section>
